@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.schwartzmedia.rediscache" type="module">
+  <file>rediscache</file>
+  <name>Redis cache support</name>
+  <description>Redis backend cache support for CiviCRM, sponsored by Schwartz Media</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Chris Ward</author>
+    <email>chriswhward@gmail.com</email>
+  </maintainer>
+  <releaseDate>2014-05-03</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>Version 1</comments>
+  <civix>
+    <namespace>CRM/Rediscache</namespace>
+  </civix>
+</extension>
